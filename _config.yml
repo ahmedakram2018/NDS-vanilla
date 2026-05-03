@@ -1,6 +1,6 @@
-title: "NDS - Vanilla National Design System"
+title: "جامعة جدة | البوابة الإلكترونية"
 version: 1.0.2
-description: "An open-source, vanilla implementation of Saudi Arabia's National Design System. Production-ready HTML, CSS, and JavaScript built from scratch with zero dependencies."
+description: "البوابة الإلكترونية لجامعة جدة، وتضم الخدمات الإلكترونية والمعلومات الأكاديمية والإدارية والأخبار والمبادرات الرقمية."
 
 baseurl: "/NDS-vanilla"
 
@@ -17,22 +17,22 @@ port: 4002
 host: 0.0.0.0  # Allow network access for mobile testing
 
 # Brand Logo
-brandLogo: assets/img/palm_swords.svg
-headerBrandW: 40
-headerBrandH: 40
+brandLogo: assets/img/uj-logo.svg
+headerBrandW: 120
+headerBrandH: 48
 
 # Brand Name
-brandName: "NDS" #comment this to remove text from brand
+brandName: "جامعة جدة" #comment this to remove text from brand
 brandNameColor: var(--text-display,#1f2a37)
-brandSlogan: Vanilla Design System
+brandSlogan: البوابة الإلكترونية
 brandSloganColor: var(--text-secondary-paragraph,#6c727e)
 
 hero_image: assets/img/riyadhcenter_ai.webp
 hero_image_small: assets/img/riyadhcenter3s.webp
 hero_image_sub:
 hero_image_pos: 50% 80%
-hero_title: National Design System
-hero_description: The National Design System provides comprehensive design guidelines, components, and resources for creating consistent and accessible digital experiences across government services in Saudi Arabia.
+hero_title: جامعة جدة
+hero_description: بوابة رقمية موحدة للوصول إلى خدمات جامعة جدة ومعلوماتها وبرامجها ومبادراتها، بما يعزز تجربة المستفيدين ويدعم التحول الرقمي.
 
 # Build settings
 markdown: kramdown
@@ -46,18 +46,18 @@ sass:
   sourcemap: never
 
 # Custom settings
-author: Mazin Musleh
-author_profile: https://www.linkedin.com/in/mazin-musleh/
+author: جامعة جدة
+author_profile: https://www.uj.edu.sa
 license: MIT
-repository_url: https://github.com/mazin-musleh/NDS-vanilla
+repository_url: https://github.com/aalnabulsi/NDS-vanilla
 
 # Language settings (RTL/LTR switching only)
-lang: en
-dir: ltr
+lang: ar
+dir: rtl
 
-# City location settings (Riyadh, Saudi Arabia)
-city_latitude: 24.7136
-city_longitude: 46.6753
+# City location settings (Jeddah, Saudi Arabia)
+city_latitude: 21.5433
+city_longitude: 39.1728
 
 # DGA Registration — replace with your real registration when deploying
 dga_registration_number: "00000000000"
@@ -93,14 +93,11 @@ footerlogos: footerlogos
 # Default hero sliders data file
 herosliders: herosliders
 
-
 # Debug tools
 debug: false  # Set to true to enable perf monitor overlay
 
 # Plugins
 plugins: []
-
-
 
 # Exclude from processing
 exclude:
@@ -127,4 +124,3 @@ exclude:
   - SECURITY.md
   - CHANGELOG.md
   - LICENSE
-
